@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54590A4E16ADC8A100D84852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A4D16ADC8A100D84852 /* UIKit.framework */; };
+		54590A5016ADC8A100D84852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A4F16ADC8A100D84852 /* Foundation.framework */; };
+		54590A5216ADC8A100D84852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A5116ADC8A100D84852 /* CoreGraphics.framework */; };
+		54590A5816ADC8A100D84852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54590A5616ADC8A100D84852 /* InfoPlist.strings */; };
+		54590A5A16ADC8A100D84852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590A5916ADC8A100D84852 /* main.m */; };
+		54590A5E16ADC8A100D84852 /* mng_mcoolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590A5D16ADC8A100D84852 /* mng_mcoolAppDelegate.m */; };
+		54590A6016ADC8A100D84852 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590A5F16ADC8A100D84852 /* Default.png */; };
+		54590A6216ADC8A100D84852 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590A6116ADC8A100D84852 /* Default@2x.png */; };
+		54590A6416ADC8A100D84852 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590A6316ADC8A100D84852 /* Default-568h@2x.png */; };
+		54590A6716ADC8A100D84852 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54590A6516ADC8A100D84852 /* MainStoryboard.storyboard */; };
+		54590A6A16ADC8A100D84852 /* mng_mcoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590A6916ADC8A100D84852 /* mng_mcoolViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54590A4916ADC8A100D84852 /* MCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54590A4D16ADC8A100D84852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54590A4F16ADC8A100D84852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54590A5116ADC8A100D84852 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54590A5516ADC8A100D84852 /* MCool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCool-Info.plist"; sourceTree = "<group>"; };
+		54590A5716ADC8A100D84852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54590A5916ADC8A100D84852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54590A5B16ADC8A100D84852 /* MCool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCool-Prefix.pch"; sourceTree = "<group>"; };
+		54590A5C16ADC8A100D84852 /* mng_mcoolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mng_mcoolAppDelegate.h; sourceTree = "<group>"; };
+		54590A5D16ADC8A100D84852 /* mng_mcoolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mng_mcoolAppDelegate.m; sourceTree = "<group>"; };
+		54590A5F16ADC8A100D84852 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54590A6116ADC8A100D84852 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		54590A6316ADC8A100D84852 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54590A6616ADC8A100D84852 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		54590A6816ADC8A100D84852 /* mng_mcoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mng_mcoolViewController.h; sourceTree = "<group>"; };
+		54590A6916ADC8A100D84852 /* mng_mcoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mng_mcoolViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54590A4616ADC8A100D84852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54590A4E16ADC8A100D84852 /* UIKit.framework in Frameworks */,
+				54590A5016ADC8A100D84852 /* Foundation.framework in Frameworks */,
+				54590A5216ADC8A100D84852 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54590A3E16ADC8A100D84852 = {
+			isa = PBXGroup;
+			children = (
+				54590A5316ADC8A100D84852 /* MCool */,
+				54590A4C16ADC8A100D84852 /* Frameworks */,
+				54590A4A16ADC8A100D84852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54590A4A16ADC8A100D84852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54590A4916ADC8A100D84852 /* MCool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54590A4C16ADC8A100D84852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54590A4D16ADC8A100D84852 /* UIKit.framework */,
+				54590A4F16ADC8A100D84852 /* Foundation.framework */,
+				54590A5116ADC8A100D84852 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54590A5316ADC8A100D84852 /* MCool */ = {
+			isa = PBXGroup;
+			children = (
+				54590A5C16ADC8A100D84852 /* mng_mcoolAppDelegate.h */,
+				54590A5D16ADC8A100D84852 /* mng_mcoolAppDelegate.m */,
+				54590A6516ADC8A100D84852 /* MainStoryboard.storyboard */,
+				54590A6816ADC8A100D84852 /* mng_mcoolViewController.h */,
+				54590A6916ADC8A100D84852 /* mng_mcoolViewController.m */,
+				54590A5416ADC8A100D84852 /* Supporting Files */,
+			);
+			path = MCool;
+			sourceTree = "<group>";
+		};
+		54590A5416ADC8A100D84852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54590A5516ADC8A100D84852 /* MCool-Info.plist */,
+				54590A5616ADC8A100D84852 /* InfoPlist.strings */,
+				54590A5916ADC8A100D84852 /* main.m */,
+				54590A5B16ADC8A100D84852 /* MCool-Prefix.pch */,
+				54590A5F16ADC8A100D84852 /* Default.png */,
+				54590A6116ADC8A100D84852 /* Default@2x.png */,
+				54590A6316ADC8A100D84852 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54590A4816ADC8A100D84852 /* MCool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54590A6D16ADC8A100D84852 /* Build configuration list for PBXNativeTarget "MCool" */;
+			buildPhases = (
+				54590A4516ADC8A100D84852 /* Sources */,
+				54590A4616ADC8A100D84852 /* Frameworks */,
+				54590A4716ADC8A100D84852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCool;
+			productName = MCool;
+			productReference = 54590A4916ADC8A100D84852 /* MCool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54590A4016ADC8A100D84852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mng.mcool;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = mng;
+			};
+			buildConfigurationList = 54590A4316ADC8A100D84852 /* Build configuration list for PBXProject "MCool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54590A3E16ADC8A100D84852;
+			productRefGroup = 54590A4A16ADC8A100D84852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54590A4816ADC8A100D84852 /* MCool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54590A4716ADC8A100D84852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54590A5816ADC8A100D84852 /* InfoPlist.strings in Resources */,
+				54590A6016ADC8A100D84852 /* Default.png in Resources */,
+				54590A6216ADC8A100D84852 /* Default@2x.png in Resources */,
+				54590A6416ADC8A100D84852 /* Default-568h@2x.png in Resources */,
+				54590A6716ADC8A100D84852 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54590A4516ADC8A100D84852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54590A5A16ADC8A100D84852 /* main.m in Sources */,
+				54590A5E16ADC8A100D84852 /* mng_mcoolAppDelegate.m in Sources */,
+				54590A6A16ADC8A100D84852 /* mng_mcoolViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54590A5616ADC8A100D84852 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54590A5716ADC8A100D84852 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54590A6516ADC8A100D84852 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54590A6616ADC8A100D84852 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54590A6B16ADC8A100D84852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54590A6C16ADC8A100D84852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54590A6E16ADC8A100D84852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCool/MCool-Prefix.pch";
+				INFOPLIST_FILE = "MCool/MCool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54590A6F16ADC8A100D84852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCool/MCool-Prefix.pch";
+				INFOPLIST_FILE = "MCool/MCool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54590A4316ADC8A100D84852 /* Build configuration list for PBXProject "MCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54590A6B16ADC8A100D84852 /* Debug */,
+				54590A6C16ADC8A100D84852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54590A6D16ADC8A100D84852 /* Build configuration list for PBXNativeTarget "MCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54590A6E16ADC8A100D84852 /* Debug */,
+				54590A6F16ADC8A100D84852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54590A4016ADC8A100D84852 /* Project object */;
+}
