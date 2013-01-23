@@ -18,13 +18,11 @@
 		54590A6416ADC8A100D84852 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590A6316ADC8A100D84852 /* Default-568h@2x.png */; };
 		54590A6716ADC8A100D84852 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54590A6516ADC8A100D84852 /* MainStoryboard.storyboard */; };
 		54590A6A16ADC8A100D84852 /* mng_mcoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590A6916ADC8A100D84852 /* mng_mcoolViewController.m */; };
-		54590A7216ADE06D00D84852 /* InAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590A7116ADE06D00D84852 /* InAppPurchaseManager.m */; };
 		54590A7416AF3F0A00D84852 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A7316AF3F0A00D84852 /* Security.framework */; };
 		54590A7C16AF444100D84852 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A7B16AF444100D84852 /* iAd.framework */; };
 		54590A7E16AF44C200D84852 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A7D16AF44C200D84852 /* StoreKit.framework */; };
 		54F50B9B16B01C350034787F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F50B9A16B01C350034787F /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		54F50B9D16B01C610034787F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F50B9C16B01C610034787F /* SystemConfiguration.framework */; };
-		54F50BA016B029180034787F /* InAppRageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F50B9F16B029180034787F /* InAppRageIAPHelper.m */; };
 		54F50BA316B02A0C0034787F /* RageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F50BA216B02A0C0034787F /* RageIAPHelper.m */; };
 		C0DD158D16AF739A0024E7F8 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD158916AF739A0024E7F8 /* IAPHelper.m */; };
 /* End PBXBuildFile section */
@@ -46,16 +44,12 @@
 		54590A6616ADC8A100D84852 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		54590A6816ADC8A100D84852 /* mng_mcoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mng_mcoolViewController.h; sourceTree = "<group>"; };
 		54590A6916ADC8A100D84852 /* mng_mcoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mng_mcoolViewController.m; sourceTree = "<group>"; };
-		54590A7016ADE06D00D84852 /* InAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseManager.h; sourceTree = "<group>"; };
-		54590A7116ADE06D00D84852 /* InAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseManager.m; sourceTree = "<group>"; };
 		54590A7316AF3F0A00D84852 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		54590A7B16AF444100D84852 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		54590A7D16AF44C200D84852 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		54F50B9916B01C350034787F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		54F50B9A16B01C350034787F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		54F50B9C16B01C610034787F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		54F50B9E16B029180034787F /* InAppRageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InAppRageIAPHelper.h; path = MCool/InAppRageIAPHelper.h; sourceTree = SOURCE_ROOT; };
-		54F50B9F16B029180034787F /* InAppRageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InAppRageIAPHelper.m; path = MCool/InAppRageIAPHelper.m; sourceTree = SOURCE_ROOT; };
 		54F50BA116B02A0C0034787F /* RageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageIAPHelper.h; sourceTree = "<group>"; };
 		54F50BA216B02A0C0034787F /* RageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageIAPHelper.m; sourceTree = "<group>"; };
 		C0DD158916AF739A0024E7F8 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAPHelper.m; path = ../IAPHelper.m; sourceTree = "<group>"; };
@@ -121,8 +115,6 @@
 				54590A6816ADC8A100D84852 /* mng_mcoolViewController.h */,
 				54590A6916ADC8A100D84852 /* mng_mcoolViewController.m */,
 				54590A5416ADC8A100D84852 /* Supporting Files */,
-				54590A7016ADE06D00D84852 /* InAppPurchaseManager.h */,
-				54590A7116ADE06D00D84852 /* InAppPurchaseManager.m */,
 			);
 			path = MCool;
 			sourceTree = "<group>";
@@ -144,8 +136,6 @@
 		54F50B9816B01C350034787F /* Extra */ = {
 			isa = PBXGroup;
 			children = (
-				54F50B9E16B029180034787F /* InAppRageIAPHelper.h */,
-				54F50B9F16B029180034787F /* InAppRageIAPHelper.m */,
 				C0DD158A16AF739A0024E7F8 /* IAPHelper.h */,
 				C0DD158916AF739A0024E7F8 /* IAPHelper.m */,
 				54F50B9916B01C350034787F /* Reachability.h */,
@@ -226,10 +216,8 @@
 				54590A5A16ADC8A100D84852 /* main.m in Sources */,
 				54590A5E16ADC8A100D84852 /* mng_mcoolAppDelegate.m in Sources */,
 				54590A6A16ADC8A100D84852 /* mng_mcoolViewController.m in Sources */,
-				54590A7216ADE06D00D84852 /* InAppPurchaseManager.m in Sources */,
 				C0DD158D16AF739A0024E7F8 /* IAPHelper.m in Sources */,
 				54F50B9B16B01C350034787F /* Reachability.m in Sources */,
-				54F50BA016B029180034787F /* InAppRageIAPHelper.m in Sources */,
 				54F50BA316B02A0C0034787F /* RageIAPHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
