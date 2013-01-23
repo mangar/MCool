@@ -7,11 +7,14 @@
 //
 
 #import "mng_mcoolAppDelegate.h"
+#import "RageIAPHelper.h"
 
 @implementation mng_mcoolAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [RageIAPHelper sharedInstance];
+    
     // Override point for customization after application launch.
     return YES;
 }
