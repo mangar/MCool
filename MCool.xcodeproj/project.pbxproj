@@ -24,6 +24,12 @@
 		54F50B9B16B01C350034787F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F50B9A16B01C350034787F /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		54F50B9D16B01C610034787F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F50B9C16B01C610034787F /* SystemConfiguration.framework */; };
 		54F50BA316B02A0C0034787F /* RageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F50BA216B02A0C0034787F /* RageIAPHelper.m */; };
+		54F50BAD16B090B50034787F /* Cool_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F50BAC16B090B50034787F /* Cool_57x57.png */; };
+		54F50BAF16B090BB0034787F /* Cool_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F50BAE16B090BB0034787F /* Cool_114x114.png */; };
+		54F50BB116B091520034787F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F50BB016B091520034787F /* Default.png */; };
+		54F50BB316B0915C0034787F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F50BB216B0915C0034787F /* Default-568h@2x.png */; };
+		54F50BB616B091740034787F /* Cool_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F50BB416B091740034787F /* Cool_57x57.png */; };
+		54F50BB716B091740034787F /* Cool_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F50BB516B091740034787F /* Cool_114x114.png */; };
 		C0DD158D16AF739A0024E7F8 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD158916AF739A0024E7F8 /* IAPHelper.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +58,12 @@
 		54F50B9C16B01C610034787F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		54F50BA116B02A0C0034787F /* RageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageIAPHelper.h; sourceTree = "<group>"; };
 		54F50BA216B02A0C0034787F /* RageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageIAPHelper.m; sourceTree = "<group>"; };
+		54F50BAC16B090B50034787F /* Cool_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cool_57x57.png; sourceTree = "<group>"; };
+		54F50BAE16B090BB0034787F /* Cool_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cool_114x114.png; sourceTree = "<group>"; };
+		54F50BB016B091520034787F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54F50BB216B0915C0034787F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54F50BB416B091740034787F /* Cool_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cool_57x57.png; sourceTree = "<group>"; };
+		54F50BB516B091740034787F /* Cool_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cool_114x114.png; sourceTree = "<group>"; };
 		C0DD158916AF739A0024E7F8 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAPHelper.m; path = ../IAPHelper.m; sourceTree = "<group>"; };
 		C0DD158A16AF739A0024E7F8 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAPHelper.h; path = ../IAPHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +89,10 @@
 		54590A3E16ADC8A100D84852 = {
 			isa = PBXGroup;
 			children = (
+				54F50BB216B0915C0034787F /* Default-568h@2x.png */,
+				54F50BB016B091520034787F /* Default.png */,
+				54F50BAE16B090BB0034787F /* Cool_114x114.png */,
+				54F50BAC16B090B50034787F /* Cool_57x57.png */,
 				54F50B9C16B01C610034787F /* SystemConfiguration.framework */,
 				54590A7D16AF44C200D84852 /* StoreKit.framework */,
 				54590A7B16AF444100D84852 /* iAd.framework */,
@@ -122,6 +138,8 @@
 		54590A5416ADC8A100D84852 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54F50BB416B091740034787F /* Cool_57x57.png */,
+				54F50BB516B091740034787F /* Cool_114x114.png */,
 				54590A5516ADC8A100D84852 /* MCool-Info.plist */,
 				54590A5616ADC8A100D84852 /* InfoPlist.strings */,
 				54590A5916ADC8A100D84852 /* main.m */,
@@ -203,6 +221,12 @@
 				54590A6216ADC8A100D84852 /* Default@2x.png in Resources */,
 				54590A6416ADC8A100D84852 /* Default-568h@2x.png in Resources */,
 				54590A6716ADC8A100D84852 /* MainStoryboard.storyboard in Resources */,
+				54F50BAD16B090B50034787F /* Cool_57x57.png in Resources */,
+				54F50BAF16B090BB0034787F /* Cool_114x114.png in Resources */,
+				54F50BB116B091520034787F /* Default.png in Resources */,
+				54F50BB316B0915C0034787F /* Default-568h@2x.png in Resources */,
+				54F50BB616B091740034787F /* Cool_57x57.png in Resources */,
+				54F50BB716B091740034787F /* Cool_114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
